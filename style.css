@@ -77,6 +77,14 @@ article h2{
     background: linear-gradient(to right, rgba(0, 128, 0, 0.5), rgba(14, 148, 9, 0));
 }
 
+.links{
+    color: #0e5f06;
+}
+
+.links::after{
+    content: "🔗";
+}
+
 img{
     margin: auto;
     width: 100%;    
