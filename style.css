@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'idroid.otf';
+    src: url('fontes/idroid.otf') format('truetype');
+}
+
+body{
+    background-color: rgb(146, 144, 141);
+}
+
+:root{
+    --cor1:#14800a;
+    --cor2:#049127;
+}
+
+header{
+    text-align: center;
+    padding:20px 20px 1px 5px ;
+    background: linear-gradient(to bottom, rgb(66, 194, 66),rgb(16, 73, 21));
+    color: azure;
+}
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-top: 30px;
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul a:hover{
+    color: #9be5ae;
+    background-color: rgb(24, 107, 24);
+    transition-duration: 0.3s;
+}
+
+main{
+    min-width: 320px;
+    max-width: 820px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1{
+    font-family: 'idroid.otf';
+    color: #0e5f06;
+    padding-bottom: 15px;
+}
+p{
+    text-indent: 30px;
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+article h2{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: #0e5f06;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.5), rgba(14, 148, 9, 0));
+}
+
+img{
+    margin: auto;
+    width: 100%;    
+}
+
+.video{
+    position:relative;
+    padding-top: 56.25%;
+    box-shadow: 1px 1px 10px black;
+}
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+aside h2{
+    margin-top: 20px;
+    background-color: #22b470;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+aside p{
+    padding: 10px;
+}
+aside{
+    background-color: #7bf5bc75;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+}
+
+footer{
+    background-color: #0e5f06;
+    color: white;
+    text-align: center;
+    margin-bottom: -100px;
+    margin-top: 10px;
+}
